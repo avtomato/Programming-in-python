@@ -2,7 +2,7 @@ Python очень активно применяют ученые со всего
 
 Напомним, что квадратное уравнение выглядит следующим образом:
 
-1[](https://github.com/avtomato/Programming-in-python/blob/master/img/R0aLunqZEeeOygpRbdVQKg_1dd9788a7c74533091fed7514159f0dd_q-eqn.png)
+![](https://github.com/avtomato/Programming-in-python/blob/master/img/R0aLunqZEeeOygpRbdVQKg_1dd9788a7c74533091fed7514159f0dd_q-eqn.png)
 
 На вход программе мы подадим коэффициенты a, b и c - ваша цель напечатать 2 корня квадратного уравнения (каждый с новой строки).
 
