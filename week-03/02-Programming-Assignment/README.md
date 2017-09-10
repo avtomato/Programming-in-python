@@ -70,8 +70,8 @@ extra
 
 Пример входного файла :
 
-[cars.csv]()
-```python
+[cars.csv](https://github.com/avtomato/Programming-in-python/blob/master/week-03/02-Programming-Assignment/cars.csv)
+```text
 car_type;brand;passenger_seats_count;photo_file_name;body_whl;carrying;extra
 car;Nissan xTtrail;4;f1.jpeg;;2.5;
 truck;Man;;f2.png;8x3x2.5;20;
