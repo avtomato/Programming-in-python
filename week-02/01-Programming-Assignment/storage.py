@@ -49,7 +49,6 @@ def main():
     storage_filename = os.path.join(tempfile.gettempdir(), 'storage.data')
     with open(storage_filename, 'a') as write_object, open(storage_filename, 'r') as read_object:
         key = args.key
-
         data = [line.strip() for line in read_object]
 
         if data:
@@ -58,7 +57,6 @@ def main():
 
         if args.val:
             val = args.val
-
             [storage[key].append(i) for i in val]
             write_object.seek(0)
             write_object.truncate()

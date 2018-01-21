@@ -11,14 +11,11 @@ def run_server(host, port):
         ClientServerProtocol,
         host, port
     )
-
     server = loop.run_until_complete(coro)
-
     try:
         loop.run_forever()
     except KeyboardInterrupt:
         pass
-
     server.close()
     loop.run_until_complete(server.wait_closed())
     loop.close()

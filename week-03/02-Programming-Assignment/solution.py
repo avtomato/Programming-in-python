@@ -48,7 +48,6 @@ class SpecMachine(CarBase):
 
 def get_car_list(csv_filename):
     car_list = []
-
     csv.register_dialect('customcsv', delimiter=';', quoting=csv.QUOTE_NONE, quotechar='', escapechar='\\')
     with open(csv_filename, encoding='utf-8') as csv_file:
         reader = csv.reader(csv_file, 'customcsv')
